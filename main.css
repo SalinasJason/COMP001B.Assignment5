@@ -42,7 +42,7 @@ header {
 }
 
 main {
-
+	
 }
 
 p {
@@ -59,11 +59,17 @@ p {
 }
 
 #footer-container {
-	
+	grid-column-start: 1;
+	grid-column-end: 3;
+	text-align: center; 
+	background: gray;
 }
 
 #header-container {
-
+	grid-column-start: 1;
+	grid-column-end: 3;
+	text-align: center; 
+	background: gray; 
 }
 
 #main-container {
